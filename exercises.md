@@ -3,60 +3,102 @@ IMPORTANT: Do ALL exercises inside ~/cli_sandbox to avoid changing important fil
 2) cd ~/cli_sandbox
 
 1: Create a directory "recommend" and then delete it.
+mkdir recommend
+rmdir recommend
 
 2: Create two directories "medal" and "terminal" and move into "terminal".
+mkdir medal
+mkdir terminal
+cd terminal
 
 3: Create a file "evaluate.txt" containing: "rain evaluate recommend evaluate discover". Then search recursively for "evaluate".
+touch evaluate.txt
+echo "rain evaluate recommend evaluate discover" >> evaluate.txt
+grep -R "evaluate".
 
 4: Output who the active user is.
+hostname
 
 5: Change directory to "cli_sandbox".
+cd ..
 
 6: Change directory to "cli_sandbox".
+already there?
 
 7: Create a directory "needle" and then delete it.
+mkdir needle
+rmdir needle
 
 8: Delete the last folder you created.
+rmdir medal
 
 9: Write something in a file called "bay.txt".
+touch bay.txt
+echo "hello" >> bay.txt
 
 10: Change directory to "cli_sandbox".
+already there?
 
 11: Create two directories "regret" and "plane" and move into "plane".
+mkdir regret
+mkdir plane
+cd plane
 
 12: Change directory to "cli_sandbox".
+cd ..
 
 13: Delete the last file you created.
+rmdir plane
 
 14: Open a file in the terminal and see the content.
+cat bay.txt
 
 15: Output hidden files.
+rm -rf
 
 16: Output who the active user is.
+hostname
 
 17: Open a file in the terminal and see the content.
+cat bay.txt
 
 18: Delete the last file you created.
+rmdir regret
 
 19: Create a directory "surprise" and then delete it.
+mkdir surprise
+rmdir surprise
 
 20: Output what's in the directory.
+ls
+bay.txt
+terminal
 
 21: Open a file in the terminal and see the content.
+cat bay.txt
 
 22: Create a directory "regret" and then delete it.
+mkdir regret
+rmdir regret
 
 23: Output hidden files.
+rm -rf
 
 24: Open a file in the terminal and see the content.
+cat bay.txt
 
 25: Open a file in the terminal and see the content.
+cat bay.txt
 
 26: Open a file in the terminal and see the content.
+cat bay.txt
 
 27: Create a directory "shot" and then delete it.
+mkdir shot
+rmdir shot
 
 28: Delete the last folder you created.
+rmdir 
 
 29: Use: echo "appreciate evaluate banish sister sister" > "on.txt" to create or overwrite "on.txt".
 
